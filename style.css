@@ -1,0 +1,38 @@
+* {
+    background-color: aquamarine;
+}
+
+#wish{
+    text-align: center;
+}
+
+#image{
+    display:flex;
+    gap:30px;
+    align-items: center;
+    margin-left: 250px;
+}
+
+#img{
+    width: 300px;
+    align-items: center;
+}
+
+#wish2 {
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width:600px) {
+    h3{
+        size:1px;
+    }
+
+    #img{
+        width:100px;
+    }
+
+    #image{
+        margin-left: 50px;
+    }
+}
